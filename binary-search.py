@@ -1,6 +1,6 @@
 import random
 
-a=[];
+a=[]
 answer=random.randrange(1,101)
 for i in range (1,101):
   a.append(i)
