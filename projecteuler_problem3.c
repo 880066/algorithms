@@ -16,6 +16,7 @@ int main() {
     if(a % i == 0){
       a=a/i;
       answer=i;
+      i--;
       }
   if(i>a) break;}
   
