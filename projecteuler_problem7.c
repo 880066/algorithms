@@ -20,7 +20,7 @@ while(dizi[10000] <= 0){
 	flag=1;
 	for(j=0;pow(dizi[j],2) <= i ; j++){
 		if(i % dizi[j] == 0){
-			flag =1;
+			flag =0;
 			break;}}
 	if(flag==1){
 		dizi[num]=i;
