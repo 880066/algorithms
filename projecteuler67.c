@@ -196,7 +196,7 @@ int main(void){
 			
 	
 	for(i =0 ; i <satir_sayisi ; i++)
-		free(ptr);
+		free(ptr[i]);
 		
 	free(ptr);
 	free(p);
